@@ -27,6 +27,10 @@ Add this line to your `.rspec` file:
 - With command line options
 
     rspec spec --format Snowday
+    
+## And for good measure
+
+http://www.unicodesnowmanforyou.com/
 
 ## License
 
