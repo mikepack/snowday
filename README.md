@@ -6,31 +6,11 @@ Makes you feel all warm inside. Like hot chocolate.
 
 This formatter makes use of unicode in the source files. This requires Ruby 1.9.
 
-## Installation
+## Installation & Usage
 
-With bundler, add this to your Gemfile:
-
-    gem 'snowday'
-
-You can also install with 'gem install snowday'.
-
-## Usage
-
-To start using the formatter you can either specify it in the rspec's command line options or add it to `.rspec` file:
-
-- With `.rspec` file
-
-Add this line to your `.rspec` file:
-
-    --format Snowday
-
-- With command line options
-
-    rspec spec --format Snowday
-    
-## And for good measure
-
-http://www.unicodesnowmanforyou.com/
+- Add `gem 'snowday'` to your Gemfile or do `gem install snowday`
+- Add `--format Snowday` to the `.rspec` file in your project directory or run your specs with `rspec spec --format Snowday`
+- Visit http://www.unicodesnowmanforyou.com/
 
 ## License
 
