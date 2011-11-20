@@ -5,7 +5,7 @@ require 'bundler'
 
 Gem::Specification.new do |s|
   s.name        = "snowday"
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mike Pack"]
   s.email       = ["mikepackdev@gmail.com"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rspec'
 
-  s.files = %w( README snowday.gemspec ) + Dir["lib/**/*.rb"]
+  s.files = %w( README.md snowday.gemspec ) + Dir["lib/**/*.rb"]
   s.test_files = Dir["spec/**/*.rb"]
   s.require_paths = ["lib"]
 end
