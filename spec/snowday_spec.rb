@@ -50,7 +50,7 @@ describe Snowday do
 
     it "displays '☹ Oh noes! A few snowmens are melted. Feels like fall out here.' when 1-5 examples fail" do
       formatter.example_passed(example)
-      (Random.rand(5) + 1).times do
+      (rand(5) + 1).times do
         formatter.example_failed(example)
       end
       formatter.stop
@@ -59,7 +59,7 @@ describe Snowday do
 
     it "displays '☹ Oh noes! Some of your snowmens are getting watery. Feels like spring out here.' when 6-10 examples fail" do
       formatter.example_passed(example)
-      (Random.rand(5) + 6).times do
+      (rand(5) + 6).times do
         formatter.example_failed(example)
       end
       formatter.stop

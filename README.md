@@ -4,7 +4,7 @@ Makes you feel all warm inside. Like hot chocolate.
 
 ![Snowmens](http://i.imgur.com/ghC1i.png)
 
-This formatter makes use of unicode in the source files. This requires Ruby 1.9.
+This formatter makes use of unicode in the source files. Tested on Ruby 1.9.3, 1.9.2 and 1.8.7.
 
 ## Installation & Usage
 
