@@ -20,13 +20,13 @@ It's snowing outside...
   def stop
     case @failed_examples.length
     when 0
-      output.print green("\n\n☃ Brrrr. It's nice and cold for these snowmens. Feels like winter out here.")
+      output.print green("\n\n☃ Brrrr. It's nice and cold for these snowmen. Feels like winter out here.")
     when 1..5
-      output.print red("\n\n☹ Oh noes! A few snowmens are melted. Feels like fall out here.")
+      output.print red("\n\n☹ Oh noes! A few snowmen are melted. Feels like fall out here.")
     when 6..10
-      output.print red("\n\n☹ Oh noes! Some of your snowmens are getting watery. Feels like spring out here.")
+      output.print red("\n\n☹ Oh noes! Some of your snowmen are getting watery. Feels like spring out here.")
     else
-      output.print red("\n\n☹ Oh noes! Your snowmens are melted. Feels like summer out here.")
+      output.print red("\n\n☹ Oh noes! Your snowmen are melted. Feels like summer out here.")
     end
   end
 
